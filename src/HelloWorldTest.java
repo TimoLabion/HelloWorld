@@ -12,5 +12,11 @@ public class HelloWorldTest {
 		
 		assertEquals("Hello World",HelloWorld.getText());
 	}
+	
+	@Test
+	public void testAddition() {
+		HelloWorld hw = new  HelloWorld();
+		assertEquals(6, HelloWorld.addition(3, 3));
+	}
 
 }
