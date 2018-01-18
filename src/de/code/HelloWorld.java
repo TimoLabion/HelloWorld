@@ -7,7 +7,7 @@ public class HelloWorld {
 	}
 	
 	public static String getText() {
-		return "Hello World";
+		return "Hello  World";
 	}
 	
 	public static int addition(int a, int b) {
