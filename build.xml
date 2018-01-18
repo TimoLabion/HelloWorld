@@ -38,7 +38,7 @@
 	<target name="junit" depends="compile" >
 		<junit printsummary="on" fork="true" haltonfailure="yes" showoutput="true">
 			<classpath refid="junit.class.path" />
-			<formatter type="plain" />
+			<formatter type="xml" />
 			<batchtest todir="reports">
 				<fileset dir="build">
 					<include name="*Test*.class" />
